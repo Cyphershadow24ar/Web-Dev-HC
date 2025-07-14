@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #1a1a1a;
+        margin: 0;
+        padding: 0;
+        height: 100vh; /* it means that we will see the whole page in a scroll able format or a whole & also options are 400px.*/
+
+        /* We use flex and these display, justify-content, align items to position the design.*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .card {
+        background-color: #a5dcbd;
+        border-radius: 10px;
+        padding: 30px;
+        width: 400px;
+      }
+
+      h2 {
+        color: #2751b2;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      form {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+      }
+
+      .password-form {
+        display: flex;
+        justify-content: center;
+      }
+
+      .signup-form {
+        display: flex;
+        justify-content: center;
+      }
+
+      input {
+        margin-bottom: 10px;
+        padding: 10px; /* It's like the inner space inside the column.*/
+        border-radius: 50px;
+        border: 1px solid rgb(12, 15, 3);
+        background-color: #07b37f;
+      }
+
+      input:hover {
+        background-color: #839cf5;
+      }
+
+      button {
+        background-color: #1b81da;
+        color: #fff;
+        padding: 10px;
+        border-radius: 50px;
+        transition: 0.2s;
+      }
+
+      button:hover {
+        background-color: #bd1e06;
+        border-color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h2>Email</h2>
+      <form>
+        <input type="text" name="" id="" placeholder="First Name" />
+        <input type="text" name="" id="" placeholder="Last Name" />
+      </form>
+
+      <form class="password-form">
+        <input type="password" placeholder="Password" />
+      </form>
+
+      <form class="signup-form">
+        <button type="submit">Sign up</button>
+      </form>
+    </div>
+  </body>
+</html>
+
+<!-- TASK 
+ 1. Also go and make up an sign page just like this. 
+            Email 
+    First name Last Name
+           passowrd
+           Sign Up
+-->

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #1a1a1a;
+        margin: 0;
+        padding: 0;
+        height: 100vh; /* it means that we will see the whole page in a scroll able format or a whole & also options are 400px.*/
+
+        /* We use flex and these display, justify-content, align items to position the design.*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .card {
+        background-color: #0ad663;
+        border-radius: 10px;
+        padding: 30px;
+        width: 300px;
+      }
+
+      h2 {
+        color: #2751b2;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        /* gap: 30px;*/
+      }
+
+      input {
+        margin-bottom: 15px;
+        padding: 10px; /* It's like the inner space inside the column.*/
+        border-radius: 5px;
+        border: 1px solid rgb(149, 205, 8);
+        background-color: #17d4c7;
+      }
+
+      input:hover {
+        background-color: #d5c112;
+      }
+
+      button {
+        background-color: #1b81da;
+        color: #fff;
+        padding: 10px;
+        border-radius: 8px;
+      }
+
+      button:hover {
+        background-color: #1f06bd;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h2>Login</h2>
+      <form>
+        <input type="email" name="" id="" placeholder="Email" />
+        <input type="password" name="" id="" placeholder="Password" />
+        <button type="submit">Login</button>
+      </form>
+    </div>
+  </body>
+</html>
+
+<!-- TASK 
+ 1.Keep Bgc - black
+ 2.Change the colur to green
+ 3.Put different types of variations in the login page.
+ 4. Also go and make up an sign page just like this. 
+            Email 
+    First name Last Name
+           passowrd
+           Sign Up
+-->
